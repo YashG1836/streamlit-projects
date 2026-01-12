@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# ML models / data
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Environment / secrets
+.env
+
+# Media / outputs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
+
+# OS junk
+.DS_Store
+Thumbs.db
