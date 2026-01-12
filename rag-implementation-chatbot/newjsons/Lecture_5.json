@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 0.0,
+            "end": 32.8,
+            "text": " Hi everyone and welcome to the complete python series  in which we are going to study our chapter 5  in chapter 5 we will be covering loops in detail  for loop, while loop, break, continue, pass  like keywords, how all these things work in loops  we will cover all those things in detail with a lot of practice questions  now we will study theory concepts, write code and solve practice questions  also you will get our notes in the description box below  from there we can download them  if you want to study a topic related to python"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 32.8,
+            "end": 71.6,
+            "text": " then it is available in this playlist on this channel  which you can go and watch  so let's start with our chapter 5  Hi everyone, now we are going to start with our chapter 5  in chapter 5 we are going to study the concept of loops in detail  now loops in English means something that is repeated  for example, if we listen to songs on Spotify or YouTube music player  then there is an option to repeat the same song again and again  so what we say is that we have put that song on loop  we are playing it on loop"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 71.6,
+            "end": 98.39999999999999,
+            "text": " similarly, some work of loops is there in programming  loops are used to repeat instructions  if there is a work which we want to do a set number of times  then we can loop that work  for example, we are making a website  we have a list on the website  and in that list we have 1 lakh users  so if we want to send an e-mail to those 1 lakh users  then one way is to use loops  about which we will talk about how loops actually work"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 98.39999999999999,
+            "end": 124.2,
+            "text": " and second way is to take out the name of the first user  and send an e-mail to him  then take out the name of the second user and send an e-mail to him  then take out the name of the third user and send an e-mail to him  so in this way what will happen  we have to write the same code again and again for 1 lakh users  so let's understand this through a very simple example  before starting with loops  we have 2 types of loops  one is wild loops and the other is for loops in python"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 124.2,
+            "end": 151.0,
+            "text": " both are important and we will study both of them in detail in this lecture  now let's start with a simple example  for example, we have a string hello  and we have to print this string 5 times on our screen  so now we must be thinking what to do  in our python file  we will write print  and then we can simply write hello  and we will copy paste this same line 5 times  so in this way we will print hello on our screen 5 times"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 151.0,
+            "end": 178.8,
+            "text": " but here if we had to print hello 100 times  or if we had to print it 1 lakh times  then how many times we would have copied pasted things  so that is a tedious process  whenever we will copy paste like this  and write a code of 1 lakh lines  so one thing is that our file will be completely filled  and the readability of our code will be completely finished  secondly, we will face a problem  that we will be doing a tedious task again and again"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 178.8,
+            "end": 205.60000000000002,
+            "text": " which is already there in python  and the simple way is loop  in loop, we will first study about wild loop  how does wild loop work?  in wild loop, we simply write while  which is a reserved keyword  we have already talked about reserved keywords  we cannot make a variable name as while  while in english means  till the time this condition remains true"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 205.60000000000002,
+            "end": 227.60000000000002,
+            "text": " till then whatever work is written by colon  keep repeating that work  till when we have to repeat that work  till the time whatever condition we write here  remains true  that is, its value finally evaluates  to be true  for example, if I have to print hello 5 times  so what can we do for that?  for that we can use wild loop"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 228.4,
+            "end": 249.4,
+            "text": " and if we write here while true  till the time it is true  so truth will always remain true  till then we want to print hello  so how many times will hello be printed?  hello will be printed infinitely  why? because till the time  value of true will always remain true  so how many times will hello be printed?  hello will always be printed"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 249.4,
+            "end": 270.2,
+            "text": " it will never stop  for example, as soon as I run this code  what is happening? hello is being printed  there is no stop to it  so that's why we have to kill the terminal  so basically here we take such a condition  which at some point also becomes false  otherwise this loop will continue  and hello will continue to print  so that's why we generally"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 270.2,
+            "end": 292.0,
+            "text": " make some count variable or some other variable  which we can initialize with 1  so for example, what is our count now?  now our count is 1  and we have to print hello till the time  our count does not reach 5  so till the time value of count  is less than or equal to 5  till then what we want to do?  we want to print hello"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 292.0,
+            "end": 312.0,
+            "text": " so let's understand this code properly  what will actually happen in this code  first of all we have taken value of count  which is equal to 1  now count is 1, can we say that 1 is less than or equal to 5?  it will give true  so in that case we will print hello  after that here value of count  should increase  because if count is 1 then count will always"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 312.0,
+            "end": 330.96,
+            "text": " less than or equal to 5  so here we increase value of count  by 1  so count will be count plus 1  or we can say that  it can be plus or equal to 1  so count will increase with 1  now from count 1 is now 2  2 is less than or equal to 5  so we again print hello"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 330.96,
+            "end": 352.85999999999996,
+            "text": " then count will increase again  and returns 3  3 is also less than or equals to 5  so we again will print hello  \uc5ec\uae30 again count will change to 4  4 is less than or equal to 5, then again hello will be printed  then count will increase to 5  5 is less than or equal to 5? Yes  so again what will happen? we will come in this line  and hello will be printed"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 352.85999999999996,
+            "end": 383.26,
+            "text": " after that what will be the value of count? 6  and as soon as count value becomes 6, is 6 less than or equal to 5? No  so what we will do? we will come out of the loop  in fact, if we run the code by printing only this much part  then what will be printed?  on the screen, we will get hello printed 5 times  and here at the end  if I want to verify what will be the value of count at the end  then I know that at the end, the value of count that will be printed will be equal to 6  this value is equal to 6"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 383.26,
+            "end": 406.26,
+            "text": " so this way our loops work  so how does the flow of loops remain?  first we check the condition, then we get the work done  after that there are some updation in any of our variables  or it is possible that there may not be any updation  after that we check the condition again  till the condition is true, work will be done  then condition will be checked again, then work will be done  then condition will be checked again, then work will be done  so in this way, in a loop, in a circle"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 406.26,
+            "end": 430.26,
+            "text": " we repeatedly repeat the same work  and if we want to stop that work at any time  then it is necessary that this condition is false  and to make it false, generally  we take a variable and this variable, like our count variable  we call them iterators  we call them iterators  and to run in a loop  we call it iteration  we call this process as iteration"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 430.26,
+            "end": 458.86,
+            "text": " one iteration means, we run a loop once  second iteration means, we run a loop second time  third iteration means, we run a loop third time  and the variable with which we run a loop  we call it iterator  and generally we don't keep count variable  we take a small variable, we call it i variable  we call it j, x, y  so we start with a small variable  like here also, if I want to write this same loop in a different way"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 458.86,
+            "end": 485.96,
+            "text": " then we take i is equal to 1  what would have happened to i, it would have become our iterator  while i is less than equal to 5  print hello  this loop will also do the same work  and we will make i plus equal to 1  save it and run  so here hello is printed 5 times more  or in fact, we print some other string here, 5 times  so what is this? this is our college written 5 times"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 485.96,
+            "end": 511.36,
+            "text": " now just like we wrote a code to print 5 times  the same code will be to print 100 times  what we have to do is, simply where the end of the loop is happening  we have to change that  like here instead of 5, if I write 100  then our college will be printed 100 times  you can scroll on the screen  and you can see that this is printed 100 times  similarly, if we want, we can also print it 1 lakh  save it, run it"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 511.46000000000004,
+            "end": 538.46,
+            "text": " what is this? our college is printed 1 lakh times on the screen  if we want, we can also print count  like this iterator, if we print it  then with our college, we can print i  save it, run it  so what is the last value? 1 lakh  before that, what is 99,999?  99,998  and where did this whole counting start from?  it started with our number 1"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 538.5600000000001,
+            "end": 564.76,
+            "text": " so like this, our loops  can be run as many times as we want  similarly, if I don't want to print any string  what I have to do is, I want to print numbers  from 1 to 5  so to print that, what we will do is  simply we will take our iterator  we can start it with 1  we will write while, till the time my iterator's value is less than or equal to 5  till then what I have to do is, I have to print my i"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 564.76,
+            "end": 585.86,
+            "text": " i means my number  so first of all, i's value will be 1  after that, we will increase i's value  then i's value will be 2, it will be printed  here  then we will increase i's value again  then i's value will be 3  then we will increase it again  till then we will keep on doing it till i's value becomes 6  and lastly, if we want we can print"
+        },
+        {
+            "Number": "5",
+            "Title": "Lecture_5",
+            "start": 585.86,
+            "end": 600.26,
+            "text": " loop ended  save it and let's run it  so we got 1,2,3,4,5 printed and our loop ended  now in the same way, we can print 5 to 1  i.e. we can run our loop in reverse"
+        }
+    ],
+    "text": " Hi everyone and welcome to the complete python series in which we are going to study our chapter 5 in chapter 5 we will be covering loops in detail for loop, while loop, break, continue, pass like keywords, how all these things work in loops we will cover all those things in detail with a lot of practice questions now we will study theory concepts, write code and solve practice questions also you will get our notes in the description box below from there we can download them if you want to study a topic related to python then it is available in this playlist on this channel which you can go and watch so let's start with our chapter 5 Hi everyone, now we are going to start with our chapter 5 in chapter 5 we are going to study the concept of loops in detail now loops in English means something that is repeated for example, if we listen to songs on Spotify or YouTube music player then there is an option to repeat the same song again and again so what we say is that we have put that song on loop we are playing it on loop similarly, some work of loops is there in programming loops are used to repeat instructions if there is a work which we want to do a set number of times then we can loop that work for example, we are making a website we have a list on the website and in that list we have 1 lakh users so if we want to send an e-mail to those 1 lakh users then one way is to use loops about which we will talk about how loops actually work and second way is to take out the name of the first user and send an e-mail to him then take out the name of the second user and send an e-mail to him then take out the name of the third user and send an e-mail to him so in this way what will happen we have to write the same code again and again for 1 lakh users so let's understand this through a very simple example before starting with loops we have 2 types of loops one is wild loops and the other is for loops in python both are important and we will study both of them in detail in this lecture now let's start with a simple example for example, we have a string hello and we have to print this string 5 times on our screen so now we must be thinking what to do in our python file we will write print and then we can simply write hello and we will copy paste this same line 5 times so in this way we will print hello on our screen 5 times but here if we had to print hello 100 times or if we had to print it 1 lakh times then how many times we would have copied pasted things so that is a tedious process whenever we will copy paste like this and write a code of 1 lakh lines so one thing is that our file will be completely filled and the readability of our code will be completely finished secondly, we will face a problem that we will be doing a tedious task again and again which is already there in python and the simple way is loop in loop, we will first study about wild loop how does wild loop work? in wild loop, we simply write while which is a reserved keyword we have already talked about reserved keywords we cannot make a variable name as while while in english means till the time this condition remains true till then whatever work is written by colon keep repeating that work till when we have to repeat that work till the time whatever condition we write here remains true that is, its value finally evaluates to be true for example, if I have to print hello 5 times so what can we do for that? for that we can use wild loop and if we write here while true till the time it is true so truth will always remain true till then we want to print hello so how many times will hello be printed? hello will be printed infinitely why? because till the time value of true will always remain true so how many times will hello be printed? hello will always be printed it will never stop for example, as soon as I run this code what is happening? hello is being printed there is no stop to it so that's why we have to kill the terminal so basically here we take such a condition which at some point also becomes false otherwise this loop will continue and hello will continue to print so that's why we generally make some count variable or some other variable which we can initialize with 1 so for example, what is our count now? now our count is 1 and we have to print hello till the time our count does not reach 5 so till the time value of count is less than or equal to 5 till then what we want to do? we want to print hello so let's understand this code properly what will actually happen in this code first of all we have taken value of count which is equal to 1 now count is 1, can we say that 1 is less than or equal to 5? it will give true so in that case we will print hello after that here value of count should increase because if count is 1 then count will always less than or equal to 5 so here we increase value of count by 1 so count will be count plus 1 or we can say that it can be plus or equal to 1 so count will increase with 1 now from count 1 is now 2 2 is less than or equal to 5 so we again print hello then count will increase again and returns 3 3 is also less than or equals to 5 so we again will print hello \uc5ec\uae30 again count will change to 4 4 is less than or equal to 5, then again hello will be printed then count will increase to 5 5 is less than or equal to 5? Yes so again what will happen? we will come in this line and hello will be printed after that what will be the value of count? 6 and as soon as count value becomes 6, is 6 less than or equal to 5? No so what we will do? we will come out of the loop in fact, if we run the code by printing only this much part then what will be printed? on the screen, we will get hello printed 5 times and here at the end if I want to verify what will be the value of count at the end then I know that at the end, the value of count that will be printed will be equal to 6 this value is equal to 6 so this way our loops work so how does the flow of loops remain? first we check the condition, then we get the work done after that there are some updation in any of our variables or it is possible that there may not be any updation after that we check the condition again till the condition is true, work will be done then condition will be checked again, then work will be done then condition will be checked again, then work will be done so in this way, in a loop, in a circle we repeatedly repeat the same work and if we want to stop that work at any time then it is necessary that this condition is false and to make it false, generally we take a variable and this variable, like our count variable we call them iterators we call them iterators and to run in a loop we call it iteration we call this process as iteration one iteration means, we run a loop once second iteration means, we run a loop second time third iteration means, we run a loop third time and the variable with which we run a loop we call it iterator and generally we don't keep count variable we take a small variable, we call it i variable we call it j, x, y so we start with a small variable like here also, if I want to write this same loop in a different way then we take i is equal to 1 what would have happened to i, it would have become our iterator while i is less than equal to 5 print hello this loop will also do the same work and we will make i plus equal to 1 save it and run so here hello is printed 5 times more or in fact, we print some other string here, 5 times so what is this? this is our college written 5 times now just like we wrote a code to print 5 times the same code will be to print 100 times what we have to do is, simply where the end of the loop is happening we have to change that like here instead of 5, if I write 100 then our college will be printed 100 times you can scroll on the screen and you can see that this is printed 100 times similarly, if we want, we can also print it 1 lakh save it, run it what is this? our college is printed 1 lakh times on the screen if we want, we can also print count like this iterator, if we print it then with our college, we can print i save it, run it so what is the last value? 1 lakh before that, what is 99,999? 99,998 and where did this whole counting start from? it started with our number 1 so like this, our loops can be run as many times as we want similarly, if I don't want to print any string what I have to do is, I want to print numbers from 1 to 5 so to print that, what we will do is simply we will take our iterator we can start it with 1 we will write while, till the time my iterator's value is less than or equal to 5 till then what I have to do is, I have to print my i i means my number so first of all, i's value will be 1 after that, we will increase i's value then i's value will be 2, it will be printed here then we will increase i's value again then i's value will be 3 then we will increase it again till then we will keep on doing it till i's value becomes 6 and lastly, if we want we can print loop ended save it and let's run it so we got 1,2,3,4,5 printed and our loop ended now in the same way, we can print 5 to 1 i.e. we can run our loop in reverse"
+}

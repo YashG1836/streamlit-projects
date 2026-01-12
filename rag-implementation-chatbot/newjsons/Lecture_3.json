@@ -1,0 +1,201 @@
+{
+    "chunks": [
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 0.0,
+            "end": 32.980000000000004,
+            "text": " Hi everyone and welcome to the complete python series  in which we will be covering all the important concepts of python language  today we are going to study chapter 3  in which we will be covering tuples and lists in python  we will not only study concepts  we will be writing our code related to concepts  along with concepts we will be solving different practice questions  now the notes of our lecture can be found in the description box below  from there we can download them  and all the lectures related to python can be found in this playlist"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 32.980000000000004,
+            "end": 69.97999999999999,
+            "text": " so let's start with our chapter 3  Hi everyone and now we are going to start with our chapter 3 in python  in chapter 3 we are going to cover lists and tuples in python  now if we talk about lists first  if you have coded in any other programming language  then you must have heard about arrays  that is a data structure called arrays  now in the same python we have lists and tuples  now list is a built-in data type that stores set of values  for example we are a teacher of a class"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 69.97999999999999,
+            "end": 96.98,
+            "text": " and we have to store the marks of many students in a class  now there must be a way to take our python file  here we have made a file in our folder  we have made a variable lecture3.py  and in this file we have 5 students  and we have to store marks of 5 students  so first we have to make the first variable  marks1 is equal to 94.4 like this  then make the second variable  marks2 is equal to 87"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 96.98,
+            "end": 124.98,
+            "text": " make the third variable  marks3 is equal to 95  make the fourth variable  marks4 is equal to 66  and marks5 is equal to 45  like this we have made 5 variables  in fact we convert these also to floating values  like this we have stored different marks  now our class size is limited  that is only 5 students"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 124.98,
+            "end": 145.98,
+            "text": " tomorrow it may be 50 students or 100 students  now for every student  for a simple thing like marks  if we start making a new variable  then we have to track many variables  while coding  so to simplify this work  we have a built in data type  built in data type means  this data type and its related methods"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 145.98,
+            "end": 167.98,
+            "text": " means functions  are already written in python  we don't have to implement them  now if I have to store these marks in a list  then we make a single variable  marks  and we simply write marks.something  so what happens  marks is equal to 12  means that these marks are an integer variable"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 167.98,
+            "end": 189.98,
+            "text": " similarly if I have to store multiple lists of values  so to make a list  first we write our square brackets  and then we start writing our values  we can store as many values as we want  in a single list  and we have to write those values  by separating them from a comma  like the first value  we have is 94.4"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 189.98,
+            "end": 209.98,
+            "text": " we can also give spaces  or not  its up to us  95.2  66.4  and similarly 45.1  so in this way  this built in data type  we call it a list in python  now this python list"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 209.98,
+            "end": 229.98,
+            "text": " we can print it  if we want  let us try to print our list  we have named our list  similarly we name a normal variable  similarly we have named our list  lets save it  and run it  we have our list  we can also print the type of list"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 229.98,
+            "end": 249.98,
+            "text": " type of marks  save  and run  so we have a list in front of the class  means this type of structure  of this data  is a list type  now many properties of list  like in strings  there was a concept of indexing"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 249.98,
+            "end": 269.98,
+            "text": " we can go to a particular index and  extract a character  similarly in a list  we can access a particular element  like for example  if we have a list like this  if we write marks of 0  then we will get marks of 0th index  1 index will be this  2 index, 3 index"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 269.98,
+            "end": 291.98,
+            "text": " and 4 index  lets try to print our values  we can print here  marks of 0  and lets try to print  marks of 1  save it and run it  so we have marks at 0th index  and marks at 1st index  and in this way we can access"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 291.98,
+            "end": 311.98,
+            "text": " all the indices  we can print the length of our list  like here instead of type  if i type len  like we used to print the length of string  we can print the length of string  save it and refresh  so we have 5  which is the length of this list  now the list of python"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 311.98,
+            "end": 331.98,
+            "text": " is slightly different from the  arrays that we create in c++ or java  means in c++ or java  generally in programming languages  the arrays that we read  in those arrays  the data that we can store  should be of same type  but in python list there is no such rule  so in python list"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 331.98,
+            "end": 351.98,
+            "text": " we can store elements of different types  together  we can make a list of student  in which we can store the details of a particular student  this is the name of the student  and this is the string type  this can be marks  this is the integer type  this can be location, place, state  so this is also"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 351.98,
+            "end": 373.98,
+            "text": " string type  we can add floating values or some other values  so in this way we can store  the data of student in a single list  like if i create a student list  so in this we can  save the name of the student  we can save the marks  we can save  the age of the student"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 373.98,
+            "end": 393.98,
+            "text": " and we can save the location of the student  we have saved it  and we can print the information of the student  and this is going to be  a valid list in python  now i have said that  the list of string and python is very similar  but there is a big difference  between the two  and the difference is that"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 393.98,
+            "end": 413.98,
+            "text": " the strings in python  are immutable  this is a very important point  and lists are  mutable in python  now what is the meaning of mutable and immutable  mutate means  changing  in english mutable means  something which can change"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 413.98,
+            "end": 433.98,
+            "text": " immutable means something which can't change  like we have mortal and immortal  which can live  and which can't  similarly we have mutable and immutable  things that can change and that can not change  so in python  like in strings  it was allowed to access the value on index  but there"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 433.98,
+            "end": 453.98,
+            "text": " it was not allowed to change the value  means mutate  but in list it is allowed  and this is also allowed  for example  if we take a string  let's take an example of a string  we have a string hello  now if we want we can print  str of 0"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 453.98,
+            "end": 473.98,
+            "text": " but if i say that i want to assign value  to str of 0  y equal  python doesn't allow this operation  because strings are immutable  it can't change  item assignment  we can't do this assignment  but in list it is possible  means we can print str of 0"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 473.98,
+            "end": 493.98,
+            "text": " and in future it is possible that  student's name  let's say arjun  so this thing is  completely possible in python  in this case python will not return any error  and if we want  we can print our new list  our student list  let's save it and run it"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 493.98,
+            "end": 513.98,
+            "text": " so we have a new list in which value  has changed because list  is immutable in python  also like in strings there is a limit  of index  if we make a list  let's take an example of this list  if index is 0, 1 and 2  so if we try to access index 3  then it will give us an error"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 513.98,
+            "end": 533.98,
+            "text": " like here  our list  we have 4 indices  this value is for index 0  this is index 1, this is index 2, this is index 3  so here if i try to write  5, then it will give me an error  here we will get an error  list index out of range  so in the range of indices"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 533.98,
+            "end": 553.98,
+            "text": " we can access our values  now like in strings  string slicing was possible  similarly slicing is possible  in lists also  what was the rule behind slicing?  we should have index  like in strings index was there  similarly in lists also index is there  so obviously slicing should be possible here also"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 553.98,
+            "end": 573.98,
+            "text": " so here same rules are there  which we read in strings  we write name of list, starting index  and ending index  so we get a part of our list  which we can call  a sub list  sub list means part of list  sub string was  part of string"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 573.98,
+            "end": 593.98,
+            "text": " so in sub list  from starting index to ending index  we get all the values  just before  similarly in list slicing  ending index is not included  for example  if we have a list of marks  and if we write 1 to 4  we need all the sub lists"
+        },
+        {
+            "Number": "3",
+            "Title": "Lecture_3",
+            "start": 593.98,
+            "end": 599.98,
+            "text": " so let's see the index  this will be index 0, this will be index 1  this will be index 2"
+        }
+    ],
+    "text": " Hi everyone and welcome to the complete python series in which we will be covering all the important concepts of python language today we are going to study chapter 3 in which we will be covering tuples and lists in python we will not only study concepts we will be writing our code related to concepts along with concepts we will be solving different practice questions now the notes of our lecture can be found in the description box below from there we can download them and all the lectures related to python can be found in this playlist so let's start with our chapter 3 Hi everyone and now we are going to start with our chapter 3 in python in chapter 3 we are going to cover lists and tuples in python now if we talk about lists first if you have coded in any other programming language then you must have heard about arrays that is a data structure called arrays now in the same python we have lists and tuples now list is a built-in data type that stores set of values for example we are a teacher of a class and we have to store the marks of many students in a class now there must be a way to take our python file here we have made a file in our folder we have made a variable lecture3.py and in this file we have 5 students and we have to store marks of 5 students so first we have to make the first variable marks1 is equal to 94.4 like this then make the second variable marks2 is equal to 87 make the third variable marks3 is equal to 95 make the fourth variable marks4 is equal to 66 and marks5 is equal to 45 like this we have made 5 variables in fact we convert these also to floating values like this we have stored different marks now our class size is limited that is only 5 students tomorrow it may be 50 students or 100 students now for every student for a simple thing like marks if we start making a new variable then we have to track many variables while coding so to simplify this work we have a built in data type built in data type means this data type and its related methods means functions are already written in python we don't have to implement them now if I have to store these marks in a list then we make a single variable marks and we simply write marks.something so what happens marks is equal to 12 means that these marks are an integer variable similarly if I have to store multiple lists of values so to make a list first we write our square brackets and then we start writing our values we can store as many values as we want in a single list and we have to write those values by separating them from a comma like the first value we have is 94.4 we can also give spaces or not its up to us 95.2 66.4 and similarly 45.1 so in this way this built in data type we call it a list in python now this python list we can print it if we want let us try to print our list we have named our list similarly we name a normal variable similarly we have named our list lets save it and run it we have our list we can also print the type of list type of marks save and run so we have a list in front of the class means this type of structure of this data is a list type now many properties of list like in strings there was a concept of indexing we can go to a particular index and extract a character similarly in a list we can access a particular element like for example if we have a list like this if we write marks of 0 then we will get marks of 0th index 1 index will be this 2 index, 3 index and 4 index lets try to print our values we can print here marks of 0 and lets try to print marks of 1 save it and run it so we have marks at 0th index and marks at 1st index and in this way we can access all the indices we can print the length of our list like here instead of type if i type len like we used to print the length of string we can print the length of string save it and refresh so we have 5 which is the length of this list now the list of python is slightly different from the arrays that we create in c++ or java means in c++ or java generally in programming languages the arrays that we read in those arrays the data that we can store should be of same type but in python list there is no such rule so in python list we can store elements of different types together we can make a list of student in which we can store the details of a particular student this is the name of the student and this is the string type this can be marks this is the integer type this can be location, place, state so this is also string type we can add floating values or some other values so in this way we can store the data of student in a single list like if i create a student list so in this we can save the name of the student we can save the marks we can save the age of the student and we can save the location of the student we have saved it and we can print the information of the student and this is going to be a valid list in python now i have said that the list of string and python is very similar but there is a big difference between the two and the difference is that the strings in python are immutable this is a very important point and lists are mutable in python now what is the meaning of mutable and immutable mutate means changing in english mutable means something which can change immutable means something which can't change like we have mortal and immortal which can live and which can't similarly we have mutable and immutable things that can change and that can not change so in python like in strings it was allowed to access the value on index but there it was not allowed to change the value means mutate but in list it is allowed and this is also allowed for example if we take a string let's take an example of a string we have a string hello now if we want we can print str of 0 but if i say that i want to assign value to str of 0 y equal python doesn't allow this operation because strings are immutable it can't change item assignment we can't do this assignment but in list it is possible means we can print str of 0 and in future it is possible that student's name let's say arjun so this thing is completely possible in python in this case python will not return any error and if we want we can print our new list our student list let's save it and run it so we have a new list in which value has changed because list is immutable in python also like in strings there is a limit of index if we make a list let's take an example of this list if index is 0, 1 and 2 so if we try to access index 3 then it will give us an error like here our list we have 4 indices this value is for index 0 this is index 1, this is index 2, this is index 3 so here if i try to write 5, then it will give me an error here we will get an error list index out of range so in the range of indices we can access our values now like in strings string slicing was possible similarly slicing is possible in lists also what was the rule behind slicing? we should have index like in strings index was there similarly in lists also index is there so obviously slicing should be possible here also so here same rules are there which we read in strings we write name of list, starting index and ending index so we get a part of our list which we can call a sub list sub list means part of list sub string was part of string so in sub list from starting index to ending index we get all the values just before similarly in list slicing ending index is not included for example if we have a list of marks and if we write 1 to 4 we need all the sub lists so let's see the index this will be index 0, this will be index 1 this will be index 2"
+}

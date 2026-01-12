@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 0.0,
+            "end": 29.12,
+            "text": " Hi everyone and welcome to the complete Python series  in which we are going to study our chapter 6  In chapter 6, we will study functions in detail  then we will cover recursion in detail  so we will not only study theory concepts  we will also write a lot of code  and solve a lot of practice questions  along with that, you will get the link to download our lecture notes and slides in the description box below  apart from this, if you want to study any other topic related to Python  then you will get it in this playlist on this channel"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 29.2,
+            "end": 64.08,
+            "text": " from there, you can read any topic  so let's start with our chapter 6  Hi everyone, now we are going to start with our chapter 6  in which we will study about functions  now function is a word which we have heard in the chapters till now  but we have not understood exactly what it is used for and why it is used  so when we talk about functions in Python  so function is a block of statements  that is a group of statements  that perform a specific task"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 64.08,
+            "end": 84.08,
+            "text": " now like we talked about loops earlier  we used loops because  if we have to repeat a task  by repeating it a set number of times  now in loops, it was fixed  that once we wrote the logic of the loop  if we wrote that a loop will run from 1 to 10  then it will be running 10 times  or 9 times  so it has a set logic"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 84.56,
+            "end": 104.56,
+            "text": " but functions are a block of code  that we have written once  so we can use it again and again  to perform the same task  now let's see the basic example  for example  this is my Python file  and we are given a task  that we have to calculate the sum of two numbers  so here we have written our first number"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 104.56,
+            "end": 125.04,
+            "text": " a is equal to 5  we have written our second number  b is equal to 10  and then we have made a variable  so the sum is equal to  a plus b  and then we have to print that sum  so we have printed it  now in future it is possible  that we have written a lot of code in between"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 125.04,
+            "end": 145.51999999999998,
+            "text": " this is probably more lines of code  here we can imagine  15-16 lines of code  and again we have got some other numbers  a and b  which we have to calculate the sum of  so again we will write a plus b in the sum  and again we will print the sum  and in the same way  we may have to write more lines of code"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 145.51999999999998,
+            "end": 165.51999999999998,
+            "text": " and again we have to repeat  the same logic  here we have got  a is equal to 12  b is equal to 17  and again we are getting a plus b calculated  and printing the sum  so in this way  we have taken a very simple example  to calculate the sum of a plus b"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 165.51999999999998,
+            "end": 186.0,
+            "text": " in real world scenarios  there are not so simple examples  so we will start with a simple example  and then we will move towards the complex  so here one thing  we have to remember  that we have written this code here  and we have to write the same code here  and we have to write the same code here  so this repeatability"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 186.0,
+            "end": 206.48,
+            "text": " in the code  means that things are repeating  in the code  or there is one more better word for this  redundant  redundant means  something which is repeating  so redundant code  is a bad sign of a programmer  that again and again"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 206.48,
+            "end": 226.48,
+            "text": " the same line of code  is being written in the code  so generally it is advised  that if we have to write the same lines of code  twice or thrice then convert it into a function  so basically this work  which we have done by repeating it  a better way to do this same work  is to make this work a function  to perform this work"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 226.48,
+            "end": 246.48,
+            "text": " what is the function's work?  function's work is to take two numbers  calculate the sum of both of them and print the sum  this is the simple work of a function  now how to create a function to perform this same work?  to create a function  first of all we write our keyword  this is def  we can understand it in a way that  we are defining our function"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 246.48,
+            "end": 266.48,
+            "text": " defining means  like when we write word meaning  we are defining a word  so def is our keyword  now we can give any name to our function  like we can give any name to variables  let's suppose we give name to this function  calculate  calculate sum  or underscore sum"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 266.48,
+            "end": 286.48,
+            "text": " I have given name to my function  after that what we write in function?  we write parenthesis and colon  these parenthesis  may have two values  which we can take as input  to take two values as input in function  basic meaning of this is that  it takes two values as input  and then performs some operation on those values"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 286.48,
+            "end": 306.48,
+            "text": " and returns some output  like if we make a chart  and explain  for example this is my function  now conceptually we are understanding this  what does function do?  ideally function takes some input  and returns some output  so the thing which it takes as input  we call it as parameter"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 306.48,
+            "end": 326.48,
+            "text": " like here we have written  def as name of our function  and if it is taking values as input  then it becomes parameter 1  and comma becomes parameter 2  like this it can take multiple parameters  parameters are basically name of variables  that calculate sum function  will take one value a and one value b  any value can be inside a"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 326.48,
+            "end": 346.48,
+            "text": " or any value can be inside b  but here name of those variables will be a and b  now if I want to print sum for a and b  then I take some variable  sum is equal to a plus b  and then I print my sum  so this much part my function performed  and gave it to me  now here question can arise that function takes input  and returns output"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 346.48,
+            "end": 366.48,
+            "text": " here my function doesn't return any output  but if we want we can return this sum  after printing  if we want we can return our sum  so return also  we have a keyword in python  which is used to send value back  to send output back  so function is a block of code  some lines of code which takes some input"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 366.48,
+            "end": 386.48,
+            "text": " and some output  and returns it  so this is a function  it takes input of these values  and output of this value  and it has done some work with these values  so this is an entire  function to calculate sum of two numbers  now how it will help me in my code  it will help me"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 386.48,
+            "end": 406.48,
+            "text": " that this whole part  now I don't need to do all this work  by removing these lines  what I can simply do is  I will call calculate sum  call means calling  this is not that type of call  but like we call someone to do work  for example we hired a chef  so what should he cook"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 406.48,
+            "end": 426.48,
+            "text": " we have to call him and tell  similarly function has to perform work  to perform work  we have to call him  so to call we write function name  and then we pass some values in it  these are the same values which will be stored in parameters  for example  parameter has a and b  so I will write 1 and 2"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 426.48,
+            "end": 446.48,
+            "text": " so 1 will be stored in a  and 2 will be stored in b  the same values will be stored in function call  this statement will be function call  in that we call argument  this argument is not to fight  this argument is to supply value  so these are the arguments  which we pass  these are actual values like 1,2, string"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 446.48,
+            "end": 466.48,
+            "text": " and this argument  in definition of function  we call it parameter  now we have many theories  we will revise all of them  so no need to take tension  just pay attention to learn  in calculate sum  now I can pass this value 5  and this value 10"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 466.48,
+            "end": 486.48,
+            "text": " now by removing this whole code  what I can do  I have to write this single line  similarly by removing this whole code  what I have to do  I have to write a simple line  so I will pass value  a is equal to 2 for 2  and b is equal to 10 for 10  and I can remove this whole code"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 486.48,
+            "end": 506.48,
+            "text": " to do this whole work  because this work is already done  in function  so I will call calculate sum  for 12 and 17  so what I did  I used same function three times  number of lines decreased  redundancy decreased  and as a programmer this is a better code"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 506.48,
+            "end": 526.48,
+            "text": " so if I run this  work will be same  earlier sum of 5 and 10 was 15  then what happened  sum of 2 and 10 was 12  and then sum of 12 and 17 was 29  so logically work was same  but we did our work in less number of lines  now this is practical point of view  that why we use functions"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 526.48,
+            "end": 546.48,
+            "text": " we use functions  so that our code  reduces redundancy  which is really important  if you are doing an interview  then it doesn't matter  that we write logic correctly  it also matters that how you are writing code  if you have written same lines  repeatedly"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 546.48,
+            "end": 566.48,
+            "text": " and we are not using function for that code  that is a sign of a bad programmer  so we don't have to do this kind of mistakes in interviews  so now let's summarize everything  let's make a new function  which is more simple  let's call it calculate sum  calculate sum takes two numbers  this should be a  and then"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 566.48,
+            "end": 586.48,
+            "text": " it returns sum of a and b  we can write like this  this is also a simple function  so whenever we call calculate function  calculate sum  let's suppose we call it with values 1 and 2  so what should be the print  we should have 3 print  let's save it and run  here"
+        },
+        {
+            "Number": "6",
+            "Title": "Lecture_6",
+            "start": 586.48,
+            "end": 600.48,
+            "text": " what I have to do  because it is returning value  so whatever value will be returned  we can store it in a variable  and we can print it  save it and run  so what value we got"
+        }
+    ],
+    "text": " Hi everyone and welcome to the complete Python series in which we are going to study our chapter 6 In chapter 6, we will study functions in detail then we will cover recursion in detail so we will not only study theory concepts we will also write a lot of code and solve a lot of practice questions along with that, you will get the link to download our lecture notes and slides in the description box below apart from this, if you want to study any other topic related to Python then you will get it in this playlist on this channel from there, you can read any topic so let's start with our chapter 6 Hi everyone, now we are going to start with our chapter 6 in which we will study about functions now function is a word which we have heard in the chapters till now but we have not understood exactly what it is used for and why it is used so when we talk about functions in Python so function is a block of statements that is a group of statements that perform a specific task now like we talked about loops earlier we used loops because if we have to repeat a task by repeating it a set number of times now in loops, it was fixed that once we wrote the logic of the loop if we wrote that a loop will run from 1 to 10 then it will be running 10 times or 9 times so it has a set logic but functions are a block of code that we have written once so we can use it again and again to perform the same task now let's see the basic example for example this is my Python file and we are given a task that we have to calculate the sum of two numbers so here we have written our first number a is equal to 5 we have written our second number b is equal to 10 and then we have made a variable so the sum is equal to a plus b and then we have to print that sum so we have printed it now in future it is possible that we have written a lot of code in between this is probably more lines of code here we can imagine 15-16 lines of code and again we have got some other numbers a and b which we have to calculate the sum of so again we will write a plus b in the sum and again we will print the sum and in the same way we may have to write more lines of code and again we have to repeat the same logic here we have got a is equal to 12 b is equal to 17 and again we are getting a plus b calculated and printing the sum so in this way we have taken a very simple example to calculate the sum of a plus b in real world scenarios there are not so simple examples so we will start with a simple example and then we will move towards the complex so here one thing we have to remember that we have written this code here and we have to write the same code here and we have to write the same code here so this repeatability in the code means that things are repeating in the code or there is one more better word for this redundant redundant means something which is repeating so redundant code is a bad sign of a programmer that again and again the same line of code is being written in the code so generally it is advised that if we have to write the same lines of code twice or thrice then convert it into a function so basically this work which we have done by repeating it a better way to do this same work is to make this work a function to perform this work what is the function's work? function's work is to take two numbers calculate the sum of both of them and print the sum this is the simple work of a function now how to create a function to perform this same work? to create a function first of all we write our keyword this is def we can understand it in a way that we are defining our function defining means like when we write word meaning we are defining a word so def is our keyword now we can give any name to our function like we can give any name to variables let's suppose we give name to this function calculate calculate sum or underscore sum I have given name to my function after that what we write in function? we write parenthesis and colon these parenthesis may have two values which we can take as input to take two values as input in function basic meaning of this is that it takes two values as input and then performs some operation on those values and returns some output like if we make a chart and explain for example this is my function now conceptually we are understanding this what does function do? ideally function takes some input and returns some output so the thing which it takes as input we call it as parameter like here we have written def as name of our function and if it is taking values as input then it becomes parameter 1 and comma becomes parameter 2 like this it can take multiple parameters parameters are basically name of variables that calculate sum function will take one value a and one value b any value can be inside a or any value can be inside b but here name of those variables will be a and b now if I want to print sum for a and b then I take some variable sum is equal to a plus b and then I print my sum so this much part my function performed and gave it to me now here question can arise that function takes input and returns output here my function doesn't return any output but if we want we can return this sum after printing if we want we can return our sum so return also we have a keyword in python which is used to send value back to send output back so function is a block of code some lines of code which takes some input and some output and returns it so this is a function it takes input of these values and output of this value and it has done some work with these values so this is an entire function to calculate sum of two numbers now how it will help me in my code it will help me that this whole part now I don't need to do all this work by removing these lines what I can simply do is I will call calculate sum call means calling this is not that type of call but like we call someone to do work for example we hired a chef so what should he cook we have to call him and tell similarly function has to perform work to perform work we have to call him so to call we write function name and then we pass some values in it these are the same values which will be stored in parameters for example parameter has a and b so I will write 1 and 2 so 1 will be stored in a and 2 will be stored in b the same values will be stored in function call this statement will be function call in that we call argument this argument is not to fight this argument is to supply value so these are the arguments which we pass these are actual values like 1,2, string and this argument in definition of function we call it parameter now we have many theories we will revise all of them so no need to take tension just pay attention to learn in calculate sum now I can pass this value 5 and this value 10 now by removing this whole code what I can do I have to write this single line similarly by removing this whole code what I have to do I have to write a simple line so I will pass value a is equal to 2 for 2 and b is equal to 10 for 10 and I can remove this whole code to do this whole work because this work is already done in function so I will call calculate sum for 12 and 17 so what I did I used same function three times number of lines decreased redundancy decreased and as a programmer this is a better code so if I run this work will be same earlier sum of 5 and 10 was 15 then what happened sum of 2 and 10 was 12 and then sum of 12 and 17 was 29 so logically work was same but we did our work in less number of lines now this is practical point of view that why we use functions we use functions so that our code reduces redundancy which is really important if you are doing an interview then it doesn't matter that we write logic correctly it also matters that how you are writing code if you have written same lines repeatedly and we are not using function for that code that is a sign of a bad programmer so we don't have to do this kind of mistakes in interviews so now let's summarize everything let's make a new function which is more simple let's call it calculate sum calculate sum takes two numbers this should be a and then it returns sum of a and b we can write like this this is also a simple function so whenever we call calculate function calculate sum let's suppose we call it with values 1 and 2 so what should be the print we should have 3 print let's save it and run here what I have to do because it is returning value so whatever value will be returned we can store it in a variable and we can print it save it and run so what value we got"
+}

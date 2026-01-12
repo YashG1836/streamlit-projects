@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 0.0,
+            "end": 30.98,
+            "text": " Hi everyone and welcome to the complete Python language series  in which we are going to study our chapter 2  in chapter 2 we will cover what are strings in python  how do strings work and some related functions  and also we will cover another important concept  which are conditional statements  which form a core of our python language  all the lectures of python series are available on this channel  in this playlist, so you can check them out  also you can download our notes"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 30.98,
+            "end": 64.97999999999999,
+            "text": " link is given in the description box below  so let's start with our chapter 2  Hi everyone, so let's start with chapter 2  in which we will study about strings  strings is a data type, we have already studied this in our first lecture  and it stores a sequence of characters  means we store a sequence of different characters in the form of strings  it can be a single character, it can be a word  it can be a whole sentence or a paragraph  we have seen 3 ways to create a string"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 64.97999999999999,
+            "end": 95.98,
+            "text": " for example, in VS code we have already  made a file in our folder  named lecture2.py  so in this python file we are writing our lecture 2 codes  if I want to create a string in this  so in this way we can make a variable named string1  so we define our string as this is a string  so what is this string? it is a sentence  which we have stored in the form of string  in fact we can create strings in single quotes also"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 95.98,
+            "end": 125.98,
+            "text": " if we want we can make a string2  in which we can store a single word  enclosed within single quotes  and we can do the same thing in triple quotes also  we can have a string3 which we can  store in the form of this  now all these 3 are valid ways to create a string  but when we are creating our strings  most of the time we will use double quotes  because generally when we see other people's code in python"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 125.98,
+            "end": 155.98,
+            "text": " so double quotes are used in it  or in fact in other programming languages also  here we can ask a question that why we need 3 different types of quotes  to create strings? it is generally due to the fact  for example we want to use apostrophe  means we want to use single quotes in our string  so how can we use it?  for example we want to write this is  our college tutorial  now if we enclose this string in single quotes"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 155.98,
+            "end": 185.98,
+            "text": " then python will get confused  how it will get confused? because single quote means  that string is starting from here and as soon as we see  double quote means that string is ending here  so this word and single quote  will not make sense to our python interpreter  so instead of this type of string  in which we want to use single apostrophe  we will enclose it in double quotes  so this way we will get a valid string and we will enclose apostrophe"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 185.98,
+            "end": 215.98,
+            "text": " means single quote also in it  but here if we had double quote  then we would have enclosed this string in single quote  so this way we have different types of quotes available  so that we can use single quotes and double quotes  inside the string value itself  so these were the basic things now let's talk about some more things  for example we want to write 2-3 sentences in a string  like this is a string  we are creating it in python"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 215.98,
+            "end": 245.98,
+            "text": " we want to write 2 sentences like this  but we want that  after printing one sentence  we want to print another sentence in the next line  but if we try to print next line in our code editor  then we get an error because this next line is not valid  to print in python  so as such generally the way we work in word documents  we cannot work in code  if we have to print next line in any string"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 245.98,
+            "end": 275.98,
+            "text": " so we use these characters  so what are these escape sequence characters  let me also write it down  escape sequence characters are special characters  whose job is to give formatting  formatting means if we want tab space or next line  then we cannot do this type of things directly in code  so to do those things we use these characters  now if we want to print this string normally  let me try to print my string 1"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 275.98,
+            "end": 305.98,
+            "text": " so on our screen our string 1 will be printed like this  and i want next line to come here  so for that we can write backslash n  backslash n is an escape sequence character  which means next line  whenever a string is printed or there is some operation with it  then we should get next line  so let's save it and run it  this extra space was created in starting  because we had extra space before v"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 305.98,
+            "end": 335.98,
+            "text": " and in this way we can get next line in our string  like we got next line  we can also get tab space  like if we write backslash t  it means this is tab escape sequence character  so in this way a tab space  came in between our sentences  we can use this type of operations  whenever we are writing a paragraph or a big line  now let's talk about"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 335.98,
+            "end": 365.98,
+            "text": " how we can perform different operations on strings  first operation is concatenation  now concatenation sounds difficult  but it is actually very easy  like in math we can add two numbers  we can write a plus b  we can also add two strings  like if we add one string 1 and one string 2  then their output will be valid in python  and to join two strings we call it concatenation"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 365.98,
+            "end": 395.98,
+            "text": " and to join two strings in python  we can use our plus operator  like here if i create my string 1  let's call it apna and my string 2  let's call it college  and if we save it  and run it then we will get  concatenated version of both the strings  we can also store their concatenated version  in a different string"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 395.98,
+            "end": 425.98,
+            "text": " let's call it final string  and our final string  we will store it here  save and run  next we can perform length  we can find out any string's length  using this length function  we don't have to worry about functions  we will study them in detail later  now we can hear the word function"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 425.98,
+            "end": 455.98,
+            "text": " so we have to imagine it like  it is a magical word  which we write and a particular operation is performed  similarly in python  there are different functions  which are inbuilt to perform different functions  in python we have len function  which is used to calculate a string's length  so we can write len  and then we will pass any string"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 455.98,
+            "end": 485.98,
+            "text": " and we will get its length  for example  here i want to print string 1  so we can print len  of str1  or we can store it in a different variable  here we have made a variable  and we are storing len  and then we are printing len1  similarly we can print len2"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 485.98,
+            "end": 515.98,
+            "text": " let's create another variable  let's create another variable  length2  let's run it  we have 4 characters in our string  and 7 characters in our string  when we are creating our final string  let's suppose we create our final string  by adding a space  so adding a new string is also valid"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 515.98,
+            "end": 545.98,
+            "text": " so first we will get our string  then we will get a space and then we will get a college  so in this way we will get an extra space  and then we can print the length of our final string  we can print len of our final string  let's save it and run it  so we have our college  and total characters are 12  the two characters in the beginning  so in total there were 11 characters"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 545.98,
+            "end": 576.98,
+            "text": " so basically whenever a string is calculated  the empty space is also counted  so spaces are never ignored  while counting length  because as a beginner we make a mistake  that we think only characters will be counted  spaces are also counted in length  like %,$,at the rate  now in python there is another interesting thing  which is called indexing"
+        },
+        {
+            "Number": "2",
+            "Title": "Lecture_2",
+            "start": 576.98,
+            "end": 601.98,
+            "text": " indexing is something which we get to see in different languages  if you have read any language like c++,java  or javascript  then i am sure you already know about indexing  otherwise we learn it in python  indexing means whenever a string is created in python  so internally all the characters of that string  are given an index"
+        }
+    ],
+    "text": " Hi everyone and welcome to the complete Python language series in which we are going to study our chapter 2 in chapter 2 we will cover what are strings in python how do strings work and some related functions and also we will cover another important concept which are conditional statements which form a core of our python language all the lectures of python series are available on this channel in this playlist, so you can check them out also you can download our notes link is given in the description box below so let's start with our chapter 2 Hi everyone, so let's start with chapter 2 in which we will study about strings strings is a data type, we have already studied this in our first lecture and it stores a sequence of characters means we store a sequence of different characters in the form of strings it can be a single character, it can be a word it can be a whole sentence or a paragraph we have seen 3 ways to create a string for example, in VS code we have already made a file in our folder named lecture2.py so in this python file we are writing our lecture 2 codes if I want to create a string in this so in this way we can make a variable named string1 so we define our string as this is a string so what is this string? it is a sentence which we have stored in the form of string in fact we can create strings in single quotes also if we want we can make a string2 in which we can store a single word enclosed within single quotes and we can do the same thing in triple quotes also we can have a string3 which we can store in the form of this now all these 3 are valid ways to create a string but when we are creating our strings most of the time we will use double quotes because generally when we see other people's code in python so double quotes are used in it or in fact in other programming languages also here we can ask a question that why we need 3 different types of quotes to create strings? it is generally due to the fact for example we want to use apostrophe means we want to use single quotes in our string so how can we use it? for example we want to write this is our college tutorial now if we enclose this string in single quotes then python will get confused how it will get confused? because single quote means that string is starting from here and as soon as we see double quote means that string is ending here so this word and single quote will not make sense to our python interpreter so instead of this type of string in which we want to use single apostrophe we will enclose it in double quotes so this way we will get a valid string and we will enclose apostrophe means single quote also in it but here if we had double quote then we would have enclosed this string in single quote so this way we have different types of quotes available so that we can use single quotes and double quotes inside the string value itself so these were the basic things now let's talk about some more things for example we want to write 2-3 sentences in a string like this is a string we are creating it in python we want to write 2 sentences like this but we want that after printing one sentence we want to print another sentence in the next line but if we try to print next line in our code editor then we get an error because this next line is not valid to print in python so as such generally the way we work in word documents we cannot work in code if we have to print next line in any string so we use these characters so what are these escape sequence characters let me also write it down escape sequence characters are special characters whose job is to give formatting formatting means if we want tab space or next line then we cannot do this type of things directly in code so to do those things we use these characters now if we want to print this string normally let me try to print my string 1 so on our screen our string 1 will be printed like this and i want next line to come here so for that we can write backslash n backslash n is an escape sequence character which means next line whenever a string is printed or there is some operation with it then we should get next line so let's save it and run it this extra space was created in starting because we had extra space before v and in this way we can get next line in our string like we got next line we can also get tab space like if we write backslash t it means this is tab escape sequence character so in this way a tab space came in between our sentences we can use this type of operations whenever we are writing a paragraph or a big line now let's talk about how we can perform different operations on strings first operation is concatenation now concatenation sounds difficult but it is actually very easy like in math we can add two numbers we can write a plus b we can also add two strings like if we add one string 1 and one string 2 then their output will be valid in python and to join two strings we call it concatenation and to join two strings in python we can use our plus operator like here if i create my string 1 let's call it apna and my string 2 let's call it college and if we save it and run it then we will get concatenated version of both the strings we can also store their concatenated version in a different string let's call it final string and our final string we will store it here save and run next we can perform length we can find out any string's length using this length function we don't have to worry about functions we will study them in detail later now we can hear the word function so we have to imagine it like it is a magical word which we write and a particular operation is performed similarly in python there are different functions which are inbuilt to perform different functions in python we have len function which is used to calculate a string's length so we can write len and then we will pass any string and we will get its length for example here i want to print string 1 so we can print len of str1 or we can store it in a different variable here we have made a variable and we are storing len and then we are printing len1 similarly we can print len2 let's create another variable let's create another variable length2 let's run it we have 4 characters in our string and 7 characters in our string when we are creating our final string let's suppose we create our final string by adding a space so adding a new string is also valid so first we will get our string then we will get a space and then we will get a college so in this way we will get an extra space and then we can print the length of our final string we can print len of our final string let's save it and run it so we have our college and total characters are 12 the two characters in the beginning so in total there were 11 characters so basically whenever a string is calculated the empty space is also counted so spaces are never ignored while counting length because as a beginner we make a mistake that we think only characters will be counted spaces are also counted in length like %,$,at the rate now in python there is another interesting thing which is called indexing indexing is something which we get to see in different languages if you have read any language like c++,java or javascript then i am sure you already know about indexing otherwise we learn it in python indexing means whenever a string is created in python so internally all the characters of that string are given an index"
+}

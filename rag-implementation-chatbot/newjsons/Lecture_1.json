@@ -1,0 +1,215 @@
+{
+    "chunks": [
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 0.0,
+            "end": 25.28,
+            "text": " Hi coders and welcome to the complete python series  in which we will be covering python language  after completing this series  if our interest is in artificial intelligence, machine learning, data science  then we will be able to learn machine learning  or if we want to go in the domain of web development later  or if we want to work on frameworks like Django  or want to make websites  then we will be able to learn that too  in this series we will be studying in such a way"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 25.28,
+            "end": 45.28,
+            "text": " that today we may not know how to write a single line of code  but after completing the series  we will be able to write good programs  plus there are many concepts of programming  which we have already learnt  and we have already applied them  now whenever we talk about python  for the past many years  python has been the most loved language in the tech industry  there are many good programmers"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 45.28,
+            "end": 71.28,
+            "text": " who start their coding journey with python  and it is also one of the easiest languages to start coding with  and that's why we are also starting our coding journey with python  to start the python series  there are no prerequisites  if we have not written any code in any other coding language  then it's absolutely fine  we will be starting things with zero level  and will be gradually increasing our level in programming  in our series"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 71.28,
+            "end": 91.28,
+            "text": " we will be studying theory concepts  but along with that  we will be writing a lot of code  to practice things  to get hands on practical experience  and along with that  we will be solving practice questions related to every important topic  all the slides and notes of the series  you will be getting the links in the description box  so let's start with our python series"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 91.28,
+            "end": 111.28,
+            "text": " with lecture 1  in which we will be covering introduction to python  in this we will be covering  input and output, variables, data types  and operators  all these concepts  we will be covering in our lecture 1  now let's talk about what is programming  in programming  there are two major components involved"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 111.28,
+            "end": 131.28,
+            "text": " one is our machine  our computer or laptop  and the other one is  code  and what we do is  we write code and give instructions to the machine  which we call a program  if I want to do something with my laptop or computer  then I will give instructions  now computer like us"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 131.28,
+            "end": 151.28,
+            "text": " can't understand Hindi, English, Nepali, Marathi  all these languages  so that's why we call it Python, Java, C++  JavaScript  in these languages  we can understand it  like we went to France  if we are going to France  then we have to speak French  if we are going to Nepal then we have to speak Nepali"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 151.28,
+            "end": 171.28,
+            "text": " if I am going to Maharashtra  then I have to speak Marathi  similarly if I want to talk to a computer  then I have to talk to the computer  in the language I understand  so that's why we use  programming languages  in which we talk to the computer  now there are many programming languages  like Java, C++, JavaScript"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 171.28,
+            "end": 191.28,
+            "text": " and here  the programming language  we are studying is called Python  so whatever code we write  to make it work with the computer  to make it work with the laptop  to make it work with the machine  all that code is going to be in Python  but there is a small twist in this  now the machine"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 191.28,
+            "end": 211.28,
+            "text": " can't understand Hindi, English, Marathi  computer can't understand  Python because  Python is a very easy language  Java, C++, C are very easy languages  which we understand as humans  computers  or machines understand the language  of 0 and 1  machines only understand numbers"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 211.28,
+            "end": 231.28,
+            "text": " how can it understand numbers?  numbers also only understand 0 and 1  in the form of high voltage and low voltage  if you pass high current in the machine  it will understand it as 1  and if you don't pass any current in the machine  it will understand it as 0  that's why we wrote our code in Python  which looks like English  but to make the machine understand that code"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 231.28,
+            "end": 251.28,
+            "text": " we have translators  like if I go to France  and I don't know how to speak French  I will take a translator or guide  who will translate my English  or Hindi in French  the computers which understand 0 and 1  the translator's job is  to take our Python  and translate it in the machine's language"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 251.28,
+            "end": 271.28,
+            "text": " that's why Python  is called a high level language  so translators work  to convert high level language  to low level languages or machine level languages  our translators can be  compilers or interpreters  so Python has an interpreter  who translates our Python code  in the form of machine"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 271.28,
+            "end": 291.28,
+            "text": " so from here  it is clear that whenever I have to  make my computer work  I have to write Python code  now let's talk about Python  before understanding Python  there are some basic features  which we should know about  first thing is that Python is very simple and easy to understand  there are so many surveys"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 291.28,
+            "end": 311.28,
+            "text": " every year in which it is said  that Python is one of the easiest languages  to start with programming  or to start with coding as a beginner  so for beginners if you want to start coding in Python  then it looks like English  that's why it is simple and easy to understand  second thing is that Python is free  and open source  so anyone can use Python"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 311.28,
+            "end": 331.28,
+            "text": " generally many programming languages are free  but many programming languages are paid  but Python is a free language  anyone can use it  you can use it  and I can use it for free  third thing is that Python is a high level language  there are some changes which can't be done directly  on the machine level  but it is easy to understand for humans"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 331.28,
+            "end": 351.28,
+            "text": " now these engineers developed Python  Gaido and Rosam  they used to work in Google  they are distinguished engineers  they have a special rank  so they developed Python  and Python is a portable language  so the Python code which you can write  in your windows  your friend can run it in his Mac OS"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 351.28,
+            "end": 371.28,
+            "text": " in Apple's computer  and the same Python code  your friend can run it in his Linux system  so Python is same  according to different operating systems  the code is same  and it can run in all the different operating systems  apart from this  we can use Python to explore  many branches of programming"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 371.28,
+            "end": 391.28,
+            "text": " we can use Python to go to data science  we can learn machine learning  we can learn AI  we can do web development  we can make websites  so in the backend  we are using Python's framework  called Django  and we can make our own games using Python  so many things can happen using Python"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 391.28,
+            "end": 411.28,
+            "text": " so it is a very versatile language  we can use it to explore  different areas of programming  and work on it  so let's start  with our first program  we have talked a lot about code  Python is a versatile language  and we have talked about coding and machine  but what is code actually?"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 411.28,
+            "end": 431.28,
+            "text": " what does it mean when I say  that we write code in Python  so to understand that  we are going to write our first program or code in Python  before writing the code  we have to download two things in our system  first we have to download  Python in our system  and after that  we have to download Visual Studio Code"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 431.28,
+            "end": 451.28,
+            "text": " we definitely need Python  because we want  our system to recognize  Python's code  and run it  and execute it  and we are downloading Visual Studio Code  because it is going to be a digital notebook  till now in school and college  all the things we have studied"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 451.28,
+            "end": 471.28,
+            "text": " we have studied on notebooks  but we can't write code with paper pen  the right way to write code  is to write it in our code editors  and Visual Studio Code  is one of the best freely available editors  out there  that's why we are using VS Code  first we are going to see  Python installation for Windows"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 471.28,
+            "end": 493.28,
+            "text": " after that we are going to see  Python installation for Mac OS  and finally we are going to download  Python for both Mac and Windows  now for installation of Python on Windows  first of all we can go to our browser  we can go to Chrome and we can search  for download Python for Windows  the link which is at the top  we have to click on that link"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 493.28,
+            "end": 513.28,
+            "text": " this link will be of  python.org  when we will go to this link  we will see a big yellow color button  on which download Python 3.1 2.1 is coming  if we are watching this lecture later  then it is possible that  we have updated version of Python  and latest version is available  so if we want we can download different version"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 513.28,
+            "end": 533.28,
+            "text": " then also we can follow this lecture  if we want we can click on  download button  or we can click on download button  and we will see Python option  we will click on it  and our Python download will start  as soon as our download is complete  we can double click on our exe file  we will see a window"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 533.28,
+            "end": 553.28,
+            "text": " in which we will click on run  and our installation will start  before starting installation  we have two check boxes  on the window which we have to check  first one is for admin privileges  which we will tick  and second one is for python.exe  which we have to tick  after tick we will click on install now"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 553.28,
+            "end": 577.28,
+            "text": " and our installation  will start  after installation is complete  our setup was successful  and we can close this window  now we will download Python for macOS  in macOS we can go to our browser  and we can search for  python.org.downloads  from here we will see yellow button"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 577.28,
+            "end": 597.28,
+            "text": " to download  latest version of Python  we can click on it and start our Python download  if you want to watch lecture later  then it is possible that you have  updated version and latest version is available  so we can download latest version  we will not face any problem  in following the whole lecture  we have to download it"
+        },
+        {
+            "Number": "1",
+            "Title": "Lecture_1",
+            "start": 597.28,
+            "end": 601.28,
+            "text": " we can save our package in downloads  if we want"
+        }
+    ],
+    "text": " Hi coders and welcome to the complete python series in which we will be covering python language after completing this series if our interest is in artificial intelligence, machine learning, data science then we will be able to learn machine learning or if we want to go in the domain of web development later or if we want to work on frameworks like Django or want to make websites then we will be able to learn that too in this series we will be studying in such a way that today we may not know how to write a single line of code but after completing the series we will be able to write good programs plus there are many concepts of programming which we have already learnt and we have already applied them now whenever we talk about python for the past many years python has been the most loved language in the tech industry there are many good programmers who start their coding journey with python and it is also one of the easiest languages to start coding with and that's why we are also starting our coding journey with python to start the python series there are no prerequisites if we have not written any code in any other coding language then it's absolutely fine we will be starting things with zero level and will be gradually increasing our level in programming in our series we will be studying theory concepts but along with that we will be writing a lot of code to practice things to get hands on practical experience and along with that we will be solving practice questions related to every important topic all the slides and notes of the series you will be getting the links in the description box so let's start with our python series with lecture 1 in which we will be covering introduction to python in this we will be covering input and output, variables, data types and operators all these concepts we will be covering in our lecture 1 now let's talk about what is programming in programming there are two major components involved one is our machine our computer or laptop and the other one is code and what we do is we write code and give instructions to the machine which we call a program if I want to do something with my laptop or computer then I will give instructions now computer like us can't understand Hindi, English, Nepali, Marathi all these languages so that's why we call it Python, Java, C++ JavaScript in these languages we can understand it like we went to France if we are going to France then we have to speak French if we are going to Nepal then we have to speak Nepali if I am going to Maharashtra then I have to speak Marathi similarly if I want to talk to a computer then I have to talk to the computer in the language I understand so that's why we use programming languages in which we talk to the computer now there are many programming languages like Java, C++, JavaScript and here the programming language we are studying is called Python so whatever code we write to make it work with the computer to make it work with the laptop to make it work with the machine all that code is going to be in Python but there is a small twist in this now the machine can't understand Hindi, English, Marathi computer can't understand Python because Python is a very easy language Java, C++, C are very easy languages which we understand as humans computers or machines understand the language of 0 and 1 machines only understand numbers how can it understand numbers? numbers also only understand 0 and 1 in the form of high voltage and low voltage if you pass high current in the machine it will understand it as 1 and if you don't pass any current in the machine it will understand it as 0 that's why we wrote our code in Python which looks like English but to make the machine understand that code we have translators like if I go to France and I don't know how to speak French I will take a translator or guide who will translate my English or Hindi in French the computers which understand 0 and 1 the translator's job is to take our Python and translate it in the machine's language that's why Python is called a high level language so translators work to convert high level language to low level languages or machine level languages our translators can be compilers or interpreters so Python has an interpreter who translates our Python code in the form of machine so from here it is clear that whenever I have to make my computer work I have to write Python code now let's talk about Python before understanding Python there are some basic features which we should know about first thing is that Python is very simple and easy to understand there are so many surveys every year in which it is said that Python is one of the easiest languages to start with programming or to start with coding as a beginner so for beginners if you want to start coding in Python then it looks like English that's why it is simple and easy to understand second thing is that Python is free and open source so anyone can use Python generally many programming languages are free but many programming languages are paid but Python is a free language anyone can use it you can use it and I can use it for free third thing is that Python is a high level language there are some changes which can't be done directly on the machine level but it is easy to understand for humans now these engineers developed Python Gaido and Rosam they used to work in Google they are distinguished engineers they have a special rank so they developed Python and Python is a portable language so the Python code which you can write in your windows your friend can run it in his Mac OS in Apple's computer and the same Python code your friend can run it in his Linux system so Python is same according to different operating systems the code is same and it can run in all the different operating systems apart from this we can use Python to explore many branches of programming we can use Python to go to data science we can learn machine learning we can learn AI we can do web development we can make websites so in the backend we are using Python's framework called Django and we can make our own games using Python so many things can happen using Python so it is a very versatile language we can use it to explore different areas of programming and work on it so let's start with our first program we have talked a lot about code Python is a versatile language and we have talked about coding and machine but what is code actually? what does it mean when I say that we write code in Python so to understand that we are going to write our first program or code in Python before writing the code we have to download two things in our system first we have to download Python in our system and after that we have to download Visual Studio Code we definitely need Python because we want our system to recognize Python's code and run it and execute it and we are downloading Visual Studio Code because it is going to be a digital notebook till now in school and college all the things we have studied we have studied on notebooks but we can't write code with paper pen the right way to write code is to write it in our code editors and Visual Studio Code is one of the best freely available editors out there that's why we are using VS Code first we are going to see Python installation for Windows after that we are going to see Python installation for Mac OS and finally we are going to download Python for both Mac and Windows now for installation of Python on Windows first of all we can go to our browser we can go to Chrome and we can search for download Python for Windows the link which is at the top we have to click on that link this link will be of python.org when we will go to this link we will see a big yellow color button on which download Python 3.1 2.1 is coming if we are watching this lecture later then it is possible that we have updated version of Python and latest version is available so if we want we can download different version then also we can follow this lecture if we want we can click on download button or we can click on download button and we will see Python option we will click on it and our Python download will start as soon as our download is complete we can double click on our exe file we will see a window in which we will click on run and our installation will start before starting installation we have two check boxes on the window which we have to check first one is for admin privileges which we will tick and second one is for python.exe which we have to tick after tick we will click on install now and our installation will start after installation is complete our setup was successful and we can close this window now we will download Python for macOS in macOS we can go to our browser and we can search for python.org.downloads from here we will see yellow button to download latest version of Python we can click on it and start our Python download if you want to watch lecture later then it is possible that you have updated version and latest version is available so we can download latest version we will not face any problem in following the whole lecture we have to download it we can save our package in downloads if we want"
+}

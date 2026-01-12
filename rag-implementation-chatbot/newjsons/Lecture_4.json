@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 0.0,
+            "end": 37.8,
+            "text": " Hi everyone and welcome to the complete python series in which we will cover chapter 4  in which we will study about dictionaries and sets  Dictionary and sets are very important data structures  or they are called built-in data types in python  which we use frequently while coding in python  so we will cover their special properties and different methods in this chapter  and we will not only study the topics but will also be coding related things  and lastly we will use all the concepts to solve our practice questions  for a better understanding  you will get the notes of our lecture in the description box below"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 37.8,
+            "end": 69.2,
+            "text": " which you can download  and if you want to study any other topic related to python  then all those chapters are available in this playlist  which you can go and watch  so let's start with our chapter 4  Dictionary and sets  Hi everyone, so we are going to start with our chapter 4  in which we will study about dictionaries and sets  now first of all let's talk about the dictionary in python  the way we have dictionaries in real life"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 69.2,
+            "end": 101.60000000000001,
+            "text": " in a dictionary we have pairs of word meanings  that means we have a specific word  and all the meanings of that word are written in one place  and then the next word and the meanings of that word are written  and then the next word and the meanings of that word are written  so this way our dictionary works in the form of pairs  where one is the word and the other is the meaning  now in the dictionary our words act like keys  and the meaning of the key is whenever I have to find the meaning of a word  we will simply search that word in our dictionary"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 101.60000000000001,
+            "end": 132.0,
+            "text": " generally we don't search for the meaning  we start the search through the word  and we call it the key of our pair  key means important thing  and meaning basically becomes the value of this key  so this way if we have to store the key value pair type information  in python then we store it  in the form of dictionary data values  now before this we have read about lists and tuples  which are built in python"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 132.0,
+            "end": 162.4,
+            "text": " similarly dictionaries and sets are also built in python  dictionaries are used to store data values in key value pairs  so there will be a key and then its value  so to create a dictionary we first write the name of our dictionary  like a normal variable  then we write equal to and in curly braces we write our key value pairs  so here we have a single key value pair  in which the key is name  and this is value  and this is our second key value pair"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 162.4,
+            "end": 192.4,
+            "text": " in which this is our key  and this is our value  so this way we can create multiple key value pairs  now let's make our own dictionary  for example we are storing some information  and to store it in the form of dictionary we just have to write curly braces  and then we have to start writing our key value pairs  so this is our key  and this is its value  we can make a name like this"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 192.4,
+            "end": 222.4,
+            "text": " name is our key and value is  we can add any name in value  we have one more key  and we have one more value  so this way this is our dictionary  we can print our dictionary if we want  we have given the name and information  so we have our dictionary printed  this is a single key value pair  and this is a single key value pair"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 222.4,
+            "end": 252.4,
+            "text": " we can store other data types in this  for example if i take a key  age  so we can store values in it  let's suppose 35 is an integer  if we make a key named is adult  so we can store true in it  or if we make a key named marks  so we can store values in it  94.4 so this is a floating value"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 252.4,
+            "end": 282.4,
+            "text": " all these values are acceptable  in a dictionary  we can store lists and tuples  let's remove these values  and add a name again  we will get a string value in name  we can create another key  which we will call subjects  and we can store a list of subjects  we will write python, c, java"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 282.4,
+            "end": 312.4,
+            "text": " and so on  so this is a list  we can also make a tuple  for example if we want to store today's topics  we can store them in a tuple  and set  save and run  so we will get different data types  now the values in a dictionary  all the data types are acceptable"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 312.4,
+            "end": 342.4,
+            "text": " but we can't use list and dictionary  we can make a string of keys  or we can make a number of keys  for example our key can be 12  we can make a floating value  save and rerun  so it can be a floating value or boolean value  or we can make a tuple  so basically there is a value  which is assigned once and can't be changed later"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 342.4,
+            "end": 372.4,
+            "text": " for example list can be changed  similarly dictionary can be changed  we can add and remove elements in dictionary  but since tuple can't be changed  we can make a key for tuple  generally we keep our primitive types  in fact in our dictionaries  we encounter strings  so we don't go into complexity  that we are making tuple, floating values"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 372.4,
+            "end": 402.4,
+            "text": " or key for teachers  we keep our key values as strings  now we can print our dictionary type  for example if i try to print  type of info, we will get dict type  now dictionary has some properties  first of all dictionaries are unordered  unordered means there is no fixed rule  that which thing will come first and which will come last  so our strings, list"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 402.4,
+            "end": 432.4,
+            "text": " or tuple  common thing in all of them is  index, index is 0, 1  2, so we know which value  is coming first and which is coming last  but in dictionaries there is no index  so there is no order in dictionaries  other than that dictionaries are mutable  we can change them, for example we can't change tuple  tuple was immutable, we can change list"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 432.4,
+            "end": 462.4,
+            "text": " list is mutable, same way dictionary is mutable  and we can't create duplicate keys  if we want to have two keys  one key has name and other has name  that thing is not possible in dictionary  like in real life dictionary when we store word meanings  one word is written once, yes we can write different meanings  but one word is written once  it's not like after 10 pages we will get definition of apple  or cat"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 462.4,
+            "end": 492.4,
+            "text": " so in same way we don't repeat keys  in dictionaries  now if we have created any dictionary for ourselves  if we want to access its values  so instead of index we can write name of dictionary  and write name of key  and through name of key we can access its value  for example this is our information dictionary  or if i give them better name  so we can call it dictionary, let's call it dict"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 492.4,
+            "end": 522.4,
+            "text": " so for our information dictionary if we want to access its values  so we can print inside information  our square brackets and after that if i want to print name  so we can simply write name  in same way if we want to print our topics  so we can write topics, we want to print our subjects  we can write subjects and we can write  H, let's run it  so we will get all these individual values  let's make it our college"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 522.4,
+            "end": 552.4,
+            "text": " and all values will be printed  now here if we write any key like this  instead of name if i write  surname, so surname because it doesn't exist  in this information dictionary so we will get error  we will get key error  because surname key is not present in this dictionary  like if we try to access any index  in string, list, tuple which doesn't exist  which is bigger than its size or smaller than its size"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 552.4,
+            "end": 582.4,
+            "text": " so in that case like we get error, similarly here if we pass key  which doesn't exist, so in that case also we will get error  if we want to change our name and assign some other value  so that thing is also possible  we can simply write name inside information  to assign new value we can write  equal to, our assignment operator and let's suppose i assign this value  let's save it and once again  let's print our information  let's refresh, so what happened here, our name value"
+        },
+        {
+            "Number": "4",
+            "Title": "Lecture_4",
+            "start": 582.4,
+            "end": 600.4,
+            "text": " got changed and similarly if we want we can add a new value  like if i want in name  we will add this thing  and here if we want we can take  this value  let's save it and run"
+        }
+    ],
+    "text": " Hi everyone and welcome to the complete python series in which we will cover chapter 4 in which we will study about dictionaries and sets Dictionary and sets are very important data structures or they are called built-in data types in python which we use frequently while coding in python so we will cover their special properties and different methods in this chapter and we will not only study the topics but will also be coding related things and lastly we will use all the concepts to solve our practice questions for a better understanding you will get the notes of our lecture in the description box below which you can download and if you want to study any other topic related to python then all those chapters are available in this playlist which you can go and watch so let's start with our chapter 4 Dictionary and sets Hi everyone, so we are going to start with our chapter 4 in which we will study about dictionaries and sets now first of all let's talk about the dictionary in python the way we have dictionaries in real life in a dictionary we have pairs of word meanings that means we have a specific word and all the meanings of that word are written in one place and then the next word and the meanings of that word are written and then the next word and the meanings of that word are written so this way our dictionary works in the form of pairs where one is the word and the other is the meaning now in the dictionary our words act like keys and the meaning of the key is whenever I have to find the meaning of a word we will simply search that word in our dictionary generally we don't search for the meaning we start the search through the word and we call it the key of our pair key means important thing and meaning basically becomes the value of this key so this way if we have to store the key value pair type information in python then we store it in the form of dictionary data values now before this we have read about lists and tuples which are built in python similarly dictionaries and sets are also built in python dictionaries are used to store data values in key value pairs so there will be a key and then its value so to create a dictionary we first write the name of our dictionary like a normal variable then we write equal to and in curly braces we write our key value pairs so here we have a single key value pair in which the key is name and this is value and this is our second key value pair in which this is our key and this is our value so this way we can create multiple key value pairs now let's make our own dictionary for example we are storing some information and to store it in the form of dictionary we just have to write curly braces and then we have to start writing our key value pairs so this is our key and this is its value we can make a name like this name is our key and value is we can add any name in value we have one more key and we have one more value so this way this is our dictionary we can print our dictionary if we want we have given the name and information so we have our dictionary printed this is a single key value pair and this is a single key value pair we can store other data types in this for example if i take a key age so we can store values in it let's suppose 35 is an integer if we make a key named is adult so we can store true in it or if we make a key named marks so we can store values in it 94.4 so this is a floating value all these values are acceptable in a dictionary we can store lists and tuples let's remove these values and add a name again we will get a string value in name we can create another key which we will call subjects and we can store a list of subjects we will write python, c, java and so on so this is a list we can also make a tuple for example if we want to store today's topics we can store them in a tuple and set save and run so we will get different data types now the values in a dictionary all the data types are acceptable but we can't use list and dictionary we can make a string of keys or we can make a number of keys for example our key can be 12 we can make a floating value save and rerun so it can be a floating value or boolean value or we can make a tuple so basically there is a value which is assigned once and can't be changed later for example list can be changed similarly dictionary can be changed we can add and remove elements in dictionary but since tuple can't be changed we can make a key for tuple generally we keep our primitive types in fact in our dictionaries we encounter strings so we don't go into complexity that we are making tuple, floating values or key for teachers we keep our key values as strings now we can print our dictionary type for example if i try to print type of info, we will get dict type now dictionary has some properties first of all dictionaries are unordered unordered means there is no fixed rule that which thing will come first and which will come last so our strings, list or tuple common thing in all of them is index, index is 0, 1 2, so we know which value is coming first and which is coming last but in dictionaries there is no index so there is no order in dictionaries other than that dictionaries are mutable we can change them, for example we can't change tuple tuple was immutable, we can change list list is mutable, same way dictionary is mutable and we can't create duplicate keys if we want to have two keys one key has name and other has name that thing is not possible in dictionary like in real life dictionary when we store word meanings one word is written once, yes we can write different meanings but one word is written once it's not like after 10 pages we will get definition of apple or cat so in same way we don't repeat keys in dictionaries now if we have created any dictionary for ourselves if we want to access its values so instead of index we can write name of dictionary and write name of key and through name of key we can access its value for example this is our information dictionary or if i give them better name so we can call it dictionary, let's call it dict so for our information dictionary if we want to access its values so we can print inside information our square brackets and after that if i want to print name so we can simply write name in same way if we want to print our topics so we can write topics, we want to print our subjects we can write subjects and we can write H, let's run it so we will get all these individual values let's make it our college and all values will be printed now here if we write any key like this instead of name if i write surname, so surname because it doesn't exist in this information dictionary so we will get error we will get key error because surname key is not present in this dictionary like if we try to access any index in string, list, tuple which doesn't exist which is bigger than its size or smaller than its size so in that case like we get error, similarly here if we pass key which doesn't exist, so in that case also we will get error if we want to change our name and assign some other value so that thing is also possible we can simply write name inside information to assign new value we can write equal to, our assignment operator and let's suppose i assign this value let's save it and once again let's print our information let's refresh, so what happened here, our name value got changed and similarly if we want we can add a new value like if i want in name we will add this thing and here if we want we can take this value let's save it and run"
+}

@@ -1,0 +1,110 @@
+{
+    "chunks": [
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 0.0,
+            "end": 53.76,
+            "text": " Hi coders and welcome to the complete Python series in which we will cover our chapter 7  in which we will study about file I.O.  How we can perform different operations on files, how to write data in a file, how to read a file, how to delete a file  we will cover all these things today, so we will not only study the concepts, but will also perform all the operations  and along with that we will also solve different practice questions  so if we want to study a topic related to Python, then all those topics are available in this playlist  we can also go and see them and also the notes and slides of the class, you will get the link to download them in the description box below  so let's start with our chapter 7  Hi everyone, now we are going to start with our 7th chapter in which we are going to study about file I.O.  Now what is the meaning of file I.O."
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 53.76,
+            "end": 112.16,
+            "text": " I.O. means input and output  in terms of files, now we all know that we have been making Python files till now, we must have seen different types of files  all the pictures we take, all the videos we have, all of them are stored in any file format in any system  now in the file I.O. means input output, it means we are opening a file, we are reading some data in it  we are doing some updates in it, we are writing some new data, we are closing that file, we are deleting that file  these types of different operations come under the category of file I.O.  so basically Python as a language can be used to perform operations on a file  for example, if there is a file saved on your computer, then we can perform operations on it  that means we can write such lines in our code, we can write such code that will access that file  can read the data in it, can write, can update, can append data in it and many more different operations"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 112.16,
+            "end": 170.64,
+            "text": " now before starting file I.O. there are some very basic things that we might have studied in school  or if we have a little background in computer science then we will have a basic idea of them already  this is a theoretical part, so maximum students among us must have heard about RAM, Random Access Memory  RAM is that memory of our computer which is a little fast in execution, that means when someone runs a code  so all the variables of that are created in RAM only  but the bad thing about RAM is that RAM is volatile, volatile means that once we close our system  so the data in RAM gets refreshed, that data is not stored permanently forever  but if we want to store any information permanently in our system, for example whenever we open the system  and we see that information, then we don't store that information in RAM, we can store it in the form of our files  there are many more different ways but we can store it in the form of a file, for example we wrote a Python code"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 170.64,
+            "end": 223.52,
+            "text": " now we don't want to close our laptop and restart the system again so that our code gets completely erased  so what we do is we store the entire Python code in the files  similarly if we download a photo in our system, so we don't want that as soon as we close our system  and restart it, our photo or videos get erased  so those videos and photos are not permanently stored in RAM, if we want to store them permanently  and make them persist, then we store them in the form of files, for example if we have a photo  it can be a PNG file, it can be a JPEG file, if there is a video, it can be a .MOV file, it can be a .MP4 file  if there is a Python file, it can be in .py, if there is a text file, it can be in .txt  so there are different files like this which are stored in our system  now these files are stored in our system's SSD or in the HDD"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 223.52,
+            "end": 273.6,
+            "text": " so if we talk about files, then Python can be used to perform different operations on a file  and these different operations, among which read and write are the major operations  that we can read the data from the file and we can rewrite the data in the file  these major operations together form the file I.O in Python  so if we talk in a very simple language, then in this chapter we are going to learn  how can we open a file, how can we read data from a file, how can we write some data to a file  how can we close a file and at the end how can we delete a file  now first of all let's see the types of files, all the files can be divided into two types  one is our text files, text files are those files in which the data is stored in the form of characters  for example, our .txt file is a text file, in which we get to see characters"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 273.6,
+            "end": 316.24,
+            "text": " our .docs file, which we can make our word document on Microsoft docs  that is a text file, .log which are the logs of our system, are stored in such files  so what is this, this is also our text file  and our non-text files, in which the data is not stored in the form of characters  but it can be stored in some other format, we call them binary files  for example, .mp4, which are our video files, are also binary files  .mov, this is also an extension of our video file  .png, .jpg, what are all these files, all these are our binary files  so we can manipulate both the files, we can access both the types of files  we can form the file I.O on them using Python"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 316.24,
+            "end": 353.84,
+            "text": " now one additional thing, even though text files and binary files are different for us  when we access them using Python code  but at the end, when all these files are stored in memory, they are all bits  that is, all the data, whether it is the data of the binary file or the data of the text file  is stored in the form of 0 and 1 in the system's memory  so we can remember this, all the files are bits at the end  they have bits of data only, of 0 and 1  but we divide them into text and binary files at the upper surface level  now let's talk about the basic operations on the file  generally, the simplest operation that we can perform on a file is"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 353.84,
+            "end": 391.59999999999997,
+            "text": " that we open a file, for example, you must have a lot of books  you must have a lot of academic files in the books  so how do we use our actual physical file, day to day  first of all, we bring the file and open it  and after opening the file, we can read some data from it, we can write some data  then we close the file at the end  so we replicate the same operations in Python  so before reading any file or writing anything in it, we have to open the file  and for that, we have existing built-in functions in Python  we simply write our open function"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 391.59999999999997,
+            "end": 427.44,
+            "text": " we have to pass two parameters in open  first of all, we send the name of our file in double quotes and single quotes  for example, my file name is sample.txt  so I have to write the full name of my file here  and after that, we send our mode  mode means what format is going to be our file to perform IOP  are we going to read in this file, are we going to write in it, are we going to append data in it  what are we actually going to do by opening this file  so we have to tell that thing in advance  and if we don't tell anything, then by default, Python assumes that we are going to read the file"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 427.6,
+            "end": 457.68,
+            "text": " so if you are opening in read mode and you are trying to write in any file  then that thing won't be possible, we will get an error  now there are many modes  for now, we will focus on a simple mode which is my read mode  so this open method, we can assume it on a surface level  it is returning our file  for example, if we try to open any file  for example, what we have done here  we have made a folder, in the folder, we already have our Python file lecture7.py  in this, let's suppose I create another text file"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 457.68,
+            "end": 488.96000000000004,
+            "text": " I call this text file as demo.txt  in this demo.txt, I have written some data  data can be anything, I am learning  here I have written Python from my college  in this way, I have written something  so this is my demo.txt file  now to open this file, I can use my open method  and when we scroll on this  we will see the whole definition of this method, how it is written  see, it is following the whole Python syntax, def"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 488.96000000000004,
+            "end": 519.6,
+            "text": " then the name of the method is open  in this, there are different parameters which we can take  but for now, our two main parameters will be the description or path of our file  and second thing is our mode  and it is written that if no other parameter is passed  then this is the default parameter, we will open our file in read mode  so in this way, our file opens and what does it return?  it returns text IORapper  we will not go into this in detail, we will assume that our file will return  by the way, it is written here, opens a file and returns a stream"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 519.6,
+            "end": 550.64,
+            "text": " stream means stream of character, stream of data returns to us  so here, first of all, we will pass the name of our file  okay, if I would not have passed demo.txt in the same folder  then in that case, we would have to send the complete path of the file  now in the same folder, where there is a Python file  where we are trying to access txt  there is our txt file  so we can directly write demo.txt here  but if it is not in the same folder, it is stored in some other folder  or stored somewhere else"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 550.64,
+            "end": 580.72,
+            "text": " then we will have to pass the complete path of that file here  what is the complete path of any file?  like here, if I copy the entire path of this file  then I will get to know where is this demo.txt  in users, in Amit Duttarwal, in desktop, in Shraddha  our file is stored here  alright, we come here, the name of our file is here  and now we will pass our mode  we have different modes  by the way, not so many modes are used frequently"
+        },
+        {
+            "Number": "7",
+            "Title": "Lecture_7",
+            "start": 580.72,
+            "end": 600.48,
+            "text": " we will cover what all are used frequently  this is in our read mode, so we have typed R  and we have our file  so in this way, we open a file  now after opening, we can perform operations on it  the most basic operation is to read  so we can simply write f.read  and what will it return?"
+        }
+    ],
+    "text": " Hi coders and welcome to the complete Python series in which we will cover our chapter 7 in which we will study about file I.O. How we can perform different operations on files, how to write data in a file, how to read a file, how to delete a file we will cover all these things today, so we will not only study the concepts, but will also perform all the operations and along with that we will also solve different practice questions so if we want to study a topic related to Python, then all those topics are available in this playlist we can also go and see them and also the notes and slides of the class, you will get the link to download them in the description box below so let's start with our chapter 7 Hi everyone, now we are going to start with our 7th chapter in which we are going to study about file I.O. Now what is the meaning of file I.O. I.O. means input and output in terms of files, now we all know that we have been making Python files till now, we must have seen different types of files all the pictures we take, all the videos we have, all of them are stored in any file format in any system now in the file I.O. means input output, it means we are opening a file, we are reading some data in it we are doing some updates in it, we are writing some new data, we are closing that file, we are deleting that file these types of different operations come under the category of file I.O. so basically Python as a language can be used to perform operations on a file for example, if there is a file saved on your computer, then we can perform operations on it that means we can write such lines in our code, we can write such code that will access that file can read the data in it, can write, can update, can append data in it and many more different operations now before starting file I.O. there are some very basic things that we might have studied in school or if we have a little background in computer science then we will have a basic idea of them already this is a theoretical part, so maximum students among us must have heard about RAM, Random Access Memory RAM is that memory of our computer which is a little fast in execution, that means when someone runs a code so all the variables of that are created in RAM only but the bad thing about RAM is that RAM is volatile, volatile means that once we close our system so the data in RAM gets refreshed, that data is not stored permanently forever but if we want to store any information permanently in our system, for example whenever we open the system and we see that information, then we don't store that information in RAM, we can store it in the form of our files there are many more different ways but we can store it in the form of a file, for example we wrote a Python code now we don't want to close our laptop and restart the system again so that our code gets completely erased so what we do is we store the entire Python code in the files similarly if we download a photo in our system, so we don't want that as soon as we close our system and restart it, our photo or videos get erased so those videos and photos are not permanently stored in RAM, if we want to store them permanently and make them persist, then we store them in the form of files, for example if we have a photo it can be a PNG file, it can be a JPEG file, if there is a video, it can be a .MOV file, it can be a .MP4 file if there is a Python file, it can be in .py, if there is a text file, it can be in .txt so there are different files like this which are stored in our system now these files are stored in our system's SSD or in the HDD so if we talk about files, then Python can be used to perform different operations on a file and these different operations, among which read and write are the major operations that we can read the data from the file and we can rewrite the data in the file these major operations together form the file I.O in Python so if we talk in a very simple language, then in this chapter we are going to learn how can we open a file, how can we read data from a file, how can we write some data to a file how can we close a file and at the end how can we delete a file now first of all let's see the types of files, all the files can be divided into two types one is our text files, text files are those files in which the data is stored in the form of characters for example, our .txt file is a text file, in which we get to see characters our .docs file, which we can make our word document on Microsoft docs that is a text file, .log which are the logs of our system, are stored in such files so what is this, this is also our text file and our non-text files, in which the data is not stored in the form of characters but it can be stored in some other format, we call them binary files for example, .mp4, which are our video files, are also binary files .mov, this is also an extension of our video file .png, .jpg, what are all these files, all these are our binary files so we can manipulate both the files, we can access both the types of files we can form the file I.O on them using Python now one additional thing, even though text files and binary files are different for us when we access them using Python code but at the end, when all these files are stored in memory, they are all bits that is, all the data, whether it is the data of the binary file or the data of the text file is stored in the form of 0 and 1 in the system's memory so we can remember this, all the files are bits at the end they have bits of data only, of 0 and 1 but we divide them into text and binary files at the upper surface level now let's talk about the basic operations on the file generally, the simplest operation that we can perform on a file is that we open a file, for example, you must have a lot of books you must have a lot of academic files in the books so how do we use our actual physical file, day to day first of all, we bring the file and open it and after opening the file, we can read some data from it, we can write some data then we close the file at the end so we replicate the same operations in Python so before reading any file or writing anything in it, we have to open the file and for that, we have existing built-in functions in Python we simply write our open function we have to pass two parameters in open first of all, we send the name of our file in double quotes and single quotes for example, my file name is sample.txt so I have to write the full name of my file here and after that, we send our mode mode means what format is going to be our file to perform IOP are we going to read in this file, are we going to write in it, are we going to append data in it what are we actually going to do by opening this file so we have to tell that thing in advance and if we don't tell anything, then by default, Python assumes that we are going to read the file so if you are opening in read mode and you are trying to write in any file then that thing won't be possible, we will get an error now there are many modes for now, we will focus on a simple mode which is my read mode so this open method, we can assume it on a surface level it is returning our file for example, if we try to open any file for example, what we have done here we have made a folder, in the folder, we already have our Python file lecture7.py in this, let's suppose I create another text file I call this text file as demo.txt in this demo.txt, I have written some data data can be anything, I am learning here I have written Python from my college in this way, I have written something so this is my demo.txt file now to open this file, I can use my open method and when we scroll on this we will see the whole definition of this method, how it is written see, it is following the whole Python syntax, def then the name of the method is open in this, there are different parameters which we can take but for now, our two main parameters will be the description or path of our file and second thing is our mode and it is written that if no other parameter is passed then this is the default parameter, we will open our file in read mode so in this way, our file opens and what does it return? it returns text IORapper we will not go into this in detail, we will assume that our file will return by the way, it is written here, opens a file and returns a stream stream means stream of character, stream of data returns to us so here, first of all, we will pass the name of our file okay, if I would not have passed demo.txt in the same folder then in that case, we would have to send the complete path of the file now in the same folder, where there is a Python file where we are trying to access txt there is our txt file so we can directly write demo.txt here but if it is not in the same folder, it is stored in some other folder or stored somewhere else then we will have to pass the complete path of that file here what is the complete path of any file? like here, if I copy the entire path of this file then I will get to know where is this demo.txt in users, in Amit Duttarwal, in desktop, in Shraddha our file is stored here alright, we come here, the name of our file is here and now we will pass our mode we have different modes by the way, not so many modes are used frequently we will cover what all are used frequently this is in our read mode, so we have typed R and we have our file so in this way, we open a file now after opening, we can perform operations on it the most basic operation is to read so we can simply write f.read and what will it return?"
+}
